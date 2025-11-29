@@ -649,7 +649,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
-    
+    float: right;    
 }
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
@@ -658,7 +658,7 @@ footer{
         - clear any floats
 */
 #section9{
-    
+    float: none;    
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */

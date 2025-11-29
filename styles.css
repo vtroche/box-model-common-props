@@ -495,10 +495,11 @@ footer{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: rgb(206 228 242 / 50%);
+    background-color:  #CEE4F2;
     position: relative;
     z-index: 2;
     transform: translate(25px,-50px);
+    clip-path: circle();
 }
 
 
@@ -560,7 +561,7 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
-    background: rgb(206 228 242 / 50%);
+    background-color: rgb(206 228 242 / 50%);
     background-image: url("images/puppy-photo.jpg");
     background-repeat: repeat;
     background-position: center center;

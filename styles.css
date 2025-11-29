@@ -364,6 +364,11 @@ footer{
     border: 6px solid var(--lt-blue);
     margin: 1rem auto 2rem auto;
     border-radius: 8px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 50%;
 }
 
 /* For the last paragraph in the section */
@@ -383,7 +388,16 @@ footer{
             - left: 60px
 */
 #section2 div > p:last-of-type{
-    
+    background-color:   rgb(67 101 115 / 50%);
+    border: 4px dashed  rgb(13 13 13 / 50%);
+    margin-top: 16px;
+    margin-right: 60px;
+    margin-bottom: 32px;
+    margin-left: 8px;
+    padding-top: 32px;
+    padding-right: 8px;
+    padding-bottom: 16px;
+    padding-left: 60px;
 }
 
  /* For the div wrapped around that paragraph to show the space its taking up within its container */

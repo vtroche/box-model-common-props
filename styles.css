@@ -344,11 +344,13 @@ footer{
     margin: 1rem auto;
     border-radius: 0 24px 24px 0;
     display:block;
+    text-decoration: none;
     width: 165px;
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
     width: 50%;
+    box-shadow: var(--box-shadow-lg)
 }
 
 /* For the paragraph with placeholder text */
@@ -365,10 +367,12 @@ footer{
     margin: 1rem auto 2rem auto;
     border-radius: 8px;
     display: block;
+    text-decoration: none;
     text-align: center;
     font-weight: bold;
     font-size: 1.1rem;
     width: 50%;
+    box-shadow: var(--box-shadow-lg);
 }
 
 /* For the last paragraph in the section */
@@ -414,7 +418,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
-
+    background-color: rgb(1 3 38 / 50%);
+    color: #fff;
+    border-color:rgb(206 228 242 / 50%);
+    box-shadow: var(--box-shadow-sm)
 }
 
 #section2 a:last-of-type:hover{
@@ -438,7 +445,11 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
-    
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: 75px;
+    filter: drop-shadow(-6px 6px 10px var(--med-gray));     
 }
 
 #section3 div::before{
@@ -480,6 +491,14 @@ footer{
         - move this to the right from its original location by 25px
 */
 #section3 div::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(206 228 242 / 50%);
+    position: relative;
+    z-index: 2;
+    transform: translate(25px,-50px);
 }
 
 
